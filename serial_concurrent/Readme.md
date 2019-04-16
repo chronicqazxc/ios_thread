@@ -35,7 +35,7 @@ extension DispatchQueue {
 }
 ```
 
-```
+```swift
 // Serial Queue demo 
 DispatchQueue.experimentSerialQueue.runExperiment()
 // Concurrent Queue demo 
