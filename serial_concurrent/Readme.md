@@ -63,7 +63,7 @@ TaskB: 06 - <NSThread: 0x60000088dd80>{number = 4, name = (null)}
 TaskB: 07 - <NSThread: 0x60000088dd80>{number = 4, name = (null)}
 TaskB: 08 - <NSThread: 0x60000088dd80>{number = 4, name = (null)}
 TaskB: 09 - <NSThread: 0x60000088dd80>{number = 4, name = (null)}
-TaskB: 10 - <NSThread: 0x60000088dd80>{number = 4, name = (null)}```
+TaskB: 10 - <NSThread: 0x60000088dd80>{number = 4, name = (null)}
 ```
 Concurrent Queue
 ```
