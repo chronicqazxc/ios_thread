@@ -35,10 +35,10 @@ extension DispatchQueue {
 }
 ```
 
-// Serial Queue demo
-DispatchQueue.experimentSerialQueue.runExperiment()
-// Concurrent Queue demo
-DispatchQueue.experimentConcurrentQueue.runExperiment()
+// Serial Queue demo 
+```DispatchQueue.experimentSerialQueue.runExperiment()```
+// Concurrent Queue demo 
+```DispatchQueue.experimentConcurrentQueue.runExperiment()```
 
 SerialQueue
 ```
