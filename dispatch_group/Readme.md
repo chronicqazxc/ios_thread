@@ -11,22 +11,6 @@ You will add `dispatchGroup.notify` on mean thread to render UI, beside `notify`
 extension DispatchQueue {
     static let experimentConcurrentQueue = DispatchQueue(label: "com.wayne.experimentConcurrentQueue", qos: .utility, attributes: .concurrent)
     static let experimentSerialQueue = DispatchQueue(label: "com.wayne.experimentDerialQueue", qos: .utility)
-
-    func runExperiment() {
-        async {
-            for i in 0...10 {
-                print("TaskA: \(String(format: "%02d", i)) - \(Thread.current)")
-                Thread.sleep(forTimeInterval: 1)
-            }
-        }
-
-        async {
-            for i in 0...10 {
-                print("TaskB: \(String(format: "%02d", i)) - \(Thread.current)")
-                Thread.sleep(forTimeInterval: 0.1)
-            }
-        }
-    }
 }
 
 func longRun(_ taskId: String, defer: TimeInterval, _ complete: ()->Void) {
