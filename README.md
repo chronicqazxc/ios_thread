@@ -3,6 +3,8 @@
 There is my understanding of iOS multiple thread usage as well as tricks, each topics has brief explanation, reminder and snipped.
 Following table lists the each topics.
 
+The code was wrote in Swift 4.2
+
 |Topc|Catalog|
 |--|--|
 |[Serial vs Concurrent](serial_concurrent)|MultiThread|
