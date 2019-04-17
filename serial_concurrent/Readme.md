@@ -10,7 +10,7 @@
   Jobs will not pending by prior job and will execute simultaneously.
   Every jobs added to the concurrent queue will be on different threads.
 
-* `async` was used in the demo in order to block the calling thread.
+* `async` was used in the demo in order to avoid block the calling thread.
 
 ```swift
 extension DispatchQueue {
