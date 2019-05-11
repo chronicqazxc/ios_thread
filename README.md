@@ -12,3 +12,5 @@ The snipped was wrote in Swift 4.2 that can be execute in Playground.
 |[Dispatch Group](dispatch_group)|GCD|
 |[Semaphore](semaphore)|GCD|
 |[Lazy Loading](https://github.com/chronicqazxc/LazyLoading)|Operation|
+
+Author: Wayne Hsiao (chronicqazxc@gmail.com)
