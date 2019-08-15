@@ -12,4 +12,4 @@ Following table lists the each topics.
 |[Semaphore](semaphore)|GCD|
 |[Lazy Loading](https://github.com/chronicqazxc/LazyLoading)|Operation|
 
-Author: [Wayne Hsiao](mailto://chronicqazxc@gmail.com)
+Author: [Wayne Hsiao](mailto:chronicqazxc@gmail.com)
