@@ -1,4 +1,5 @@
 # Semaphore
+![](https://img.shields.io/badge/Swift-v4.2-blue)
 
 Semaphore is a mechanism which adopt signal with count. Thread freezed when count equal zero, the count will be subtract one and the thread will be executed if count greater or equal one. The parameter passed to the Semaphore initial method, indicate how many threads can be process in the moment. Semaphore also can be used in Global queue.
 
@@ -83,3 +84,5 @@ Stuff A sing in 90% on <NSThread: 0x600000b9fcc0>{number = 7, name = (null)}.
 Stuff A sing in 100% on <NSThread: 0x600000b9fcc0>{number = 7, name = (null)}.
 Stuff A sing in complete.
 ```
+
+Author: [Wayne Hsiao](mailto:chronicqazxc@gmail.com)
