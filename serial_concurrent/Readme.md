@@ -1,5 +1,6 @@
 
 # Explain Serial and Concurrent by GCD API
+![](https://img.shields.io/badge/Swift-v4.2-blue)
 ## Dispatch Queue:
   User just add their tasks into the proper queue. Queue execute tasks according to the sequence of addition. (FIFO)
 ## Here are two types of queue.
@@ -93,3 +94,5 @@ TaskA: 08 - <NSThread: 0x600003b1dfc0>{number = 4, name = (null)}
 TaskA: 09 - <NSThread: 0x600003b1dfc0>{number = 4, name = (null)}
 TaskA: 10 - <NSThread: 0x600003b1dfc0>{number = 4, name = (null)}
 ```
+
+Author: [Wayne Hsiao](mailto:chronicqazxc@gmail.com)
