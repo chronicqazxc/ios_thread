@@ -1,4 +1,6 @@
 # DispatchGroup
+![](https://img.shields.io/badge/Swift-v4.2-blue)
+
 Image you have two long run service tasks, after all tasks done you will render screen based on the results.
 You can call the services perspectively but it is not efficiently, so we can use `DispatchGroup` to call multiple service call concurrently.
 At first you will create a `dispatchGroup` and add `dispatchGroup.enter()` before each service call and call `dispatchGroup.leave()` after each service call completed.
@@ -74,3 +76,5 @@ A: 10 - <NSThread: 0x600002467080>{number = 6, name = (null)}
 Will be executed after all enters were leaved - <NSThread: 0x60000247e840>{number = 1, name = main}
 Both tasks was completed - <NSThread: 0x60000247e840>{number = 1, name = main}
 ```
+
+Author: [Wayne Hsiao](mailto:chronicqazxc@gmail.com)
