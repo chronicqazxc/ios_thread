@@ -1,4 +1,5 @@
 # Barrier
+![](https://img.shields.io/badge/Swift-v4.2-blue)
 
 Sometimes we will process database process or file concurrently for efficient, it is save to use concurrent for read operate but not save for write operate. Barrier in GCD can help us to resolve the data race condition issues.
 `barrier` will add it's task to the queue until all tasks on the concurrent queue was completed, the `barrier` task is executed exclusively on the queue. The queue operate will become to normal after `barrier` task completed.
@@ -103,3 +104,5 @@ ReadE10 on <NSThread: 0x6000002dd3c0>{number = 5, name = (null)}
 ReadD10 on <NSThread: 0x6000002da500>{number = 6, name = (null)}
 
 ```
+
+Author: [Wayne Hsiao](mailto:chronicqazxc@gmail.com)
