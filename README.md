@@ -1,9 +1,8 @@
 # iOS Thread
+![](https://img.shields.io/badge/Swift-v4.2-blue)
 
 There is my understanding of iOS multiple thread usage as well as tricks, each topics has brief explanation, reminder and snipped.
 Following table lists the each topics.
-
-The snipped was wrote in Swift 4.2 that can be execute in Playground.
 
 |Topc|Catalog|
 |--|--|
@@ -13,4 +12,4 @@ The snipped was wrote in Swift 4.2 that can be execute in Playground.
 |[Semaphore](semaphore)|GCD|
 |[Lazy Loading](https://github.com/chronicqazxc/LazyLoading)|Operation|
 
-Author: Wayne Hsiao (chronicqazxc@gmail.com)
+Author: [Wayne Hsiao](mailto://chronicqazxc@gmail.com)
